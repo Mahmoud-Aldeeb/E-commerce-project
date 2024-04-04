@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    overflow: hidden;
+}
+.app .container {
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+}
+.app .container .left {
+    width: 40%;
+    margin-top: 200px;
+}
+.app .container .left h1 {
+    width: 285px;
+    height: 64px;
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.06em;
+    text-align: justified;
+}
+.app .container .left p {
+    width: 525px;
+    height: 130px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.app .container .right {
+    width: 50%;
+}
+
+.app .container-2,
+.app .container-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89%;
+    gap: 30px;
+}
+.app .container-2 .number {
+    width: 270px;
+    height: 230px;
+    padding: 30px, 51px, 30px, 50px;
+    border-radius: 4px;
+    border: 1px;
+    border: 1px solid #0000004D;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.app .container-2 .number .num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.app .container-2 .number .num h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.app .container-2 .number .num p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.app .container-3 .pepole {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.app .container-3 .pepole img {
+    width: 370px;
+    height: 430px;
+    border-radius: 4px;
+}
+.app .container-3 .pepole .name {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.app .container-3 .pepole .name .na {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.app .container-3 .pepole .name .na h2 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+}
+.app .container-3 .pepole .name .na p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.app .container-3 .pepole .name .imgs {
+    width: 104px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.app .container-3 .pepole .name .imgs img {
+    width: 24px;
+    height: 24px;
+    border: 0.2px solid #FFFFFF;
+}
+.app .dot {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.app .dot div {
+    width: 12px;
+    height: 12px;
+    opacity: 30%;
+    background: #000000;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+
+
+
+.app .container-4 {
+    display: flex;
+    flex-direction: row;
+    gap: 88px;
+    align-items: center;
+    justify-content: center;
+}
+.app .container-4 .icons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.app .container-4 .icons img {
+    width: 80px;
+    height: 80px;
+}
+.app .container-4 .icons .parg {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.app .container-4 .icons .parg h4 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.app .container-4 .icons .parg p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}

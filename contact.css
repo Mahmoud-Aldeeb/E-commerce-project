@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    overflow: hidden;
+}
+
+.app .container {
+    width: 84.7%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.app .container .left {
+    width: 26.6%;
+    height: 457px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 32px;
+}
+.app .container .left .top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.app .container .left .top .call {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+.app .container .left .top .call p,
+.app .container .left .button .write p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.app .container .left .top .phone {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.app .container .left .top .phone p,
+.app .container .left .button .email p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.app .container .left .button {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.app .container .left .button .write {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    margin-left: -130px;
+}
+.app .container .left .button .email {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.app .container .right {
+    width: 62.5%;
+    height: 457px;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+}
+.app .container .right .all {
+    margin: 40px 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.app .container .right .all .name {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.app .container .right .all .name input {
+    width: 33.3%;
+    height: 50px;
+    background-color: #F5F5F5;
+    border: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 50%;
+    padding: 13px 16px;
+}
+.app .container .right .all .massage input {
+    width: 100%;
+    height: 207px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #F5F5F5;
+
+
+}
+.app .container .right .all .massage input::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 16px;
+    margin: 0;
+}
+.app .container .right .all .button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+.app .container .right .all .button button {
+    width: 215px;
+    height: 56px;
+    padding: 16px 48px 16px 48px;
+    gap: 10px;
+    border-radius: 4px ;  
+
+}

@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    overflow: hidden;
+}
+
+.app .container {
+    width: 84.7%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.app .container .left {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.app .container .left img {
+    width: 170px;
+    height: 138px;
+}
+.app .container .midlle {
+    width: 54%;
+    height: 600px;
+}
+.app .container .midlle img {
+    width: 500px;
+    height: 600px;
+}
+.app .container .right {
+    width: 40%;
+}
+.app .container .right .top h1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.app .container .right .top .stars {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.app .container .right .top .stars p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 50%;
+}
+.app .container .right .top .stars span {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00FF66;
+    opacity: 60%;
+}
+.app .container .right .top h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.app .container .right .top h4 {
+    width:  72.8%;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+.app .container .right hr {
+    width: 400px;
+    opacity: 50%;
+}
+.app .container .right .button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+.app .container .right .button .colors {
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 20px;
+}
+.app .container .right .button .colors p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;    
+}
+.app .container .right .button .colors div {
+    width: 20px;
+    height: 20px;
+    background: #A0BCE0;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+.app .container .right .button .colors div:nth-child(3) {
+    background: #E07575;
+    border: 0;
+}
+.app .container .right .button .size {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.app .container .right .button .size p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;    
+}
+.app .container .right .button .size span {
+    border: 1px solid #00000080;
+    width: 32px;
+    height: 32px;
+    padding: 6px 7px 6px 7px;
+    border-radius: 4px;
+    text-align: center;
+}
+.app .container .right .button .size span:nth-child(4) {
+    background: #DB4444;
+    color: white;
+    border: 0;
+}
+.app .container .right .button .buy {
+    height: 44px;
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+}
+.app .container .right .button .buy .two {
+    width: 159px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.app .container .right .button .buy .two button {
+    width: 40px;
+    height: 44px;
+    padding: 10px 8px 10px 8px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #00000080;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+}
+.app .container .right .button .buy .two button:nth-child(3) {
+    width: 41px;
+    height: 44px;
+    padding: 10px 8px 10px 9px;
+    border-radius: 0px 4px 4px 0px;
+    background: #DB4444;
+    color: white;
+    cursor: pointer;
+}
+.app .container .right .button .buy .two input {
+    width: 80px;
+    height: 44px;
+    padding: 8px 0px 8px 0px;
+    border: 0;
+    border-top: 1px;
+    text-align: center;
+    color: #000000;
+    opacity: 100%;
+}
+.app .container .right .button .buy .now {
+    display: flex;
+    gap: 20px;
+}
+.app .container .right .button .buy button {
+    width: 165px;
+    height: 44px;
+    padding: 10px 48px 10px 48px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    margin: 0;
+}
+.app .container .right .button .delivery {
+    width: 399px;
+    height: 150px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #00000080;
+    margin-top: 30px;
+}
+.app .container .right .button .delivery .top {
+    height: 50px;
+    gap: 16px;
+    padding-left: 16px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.app .container .right .button .delivery .top img,
+.app .container .right .button .delivery .button img  {
+    width: 40px;
+    height: 40px;
+}
+.app .container .right .button .delivery .top .free,
+.app .container .right .button .delivery .button .return {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.app .container .right .button .delivery .top .free h5,
+.app .container .right .button .delivery .button .return h5 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+.app .container .right .button .delivery .top .free p,
+.app .container .right .button .delivery .button .return p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    
+}
+.app .container .right .button .delivery .button {
+    height: 50px;
+    gap: 16px;
+    padding-left: 16px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}

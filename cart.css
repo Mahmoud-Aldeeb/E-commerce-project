@@ -1,0 +1,245 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.app .title-cart {
+    width: 103px;
+    height: 21px;
+    margin-top: 100px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.app .title-cart p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 50%;
+}
+.app .title-cart span {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+.app .container {
+    width: 77.4%;
+    margin-left: 9%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px; 
+}
+
+
+
+.app .container .top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.app .container .top .row-1 {
+    width: 100%;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+
+}
+.app .container .top .row-1 .address {
+    display: flex;
+    flex-direction: row;
+    gap: 284px;
+    margin-top: 24px;
+    margin-left: 40px;
+}
+.app .container .top .row-1 .address p {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.app .container .top .row-2 {
+    width: 100%;
+    height: 72px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 13px 0px #0000000D;
+    display: flex;
+}
+.app .container .top .row-2 .address {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 35px;
+
+}
+.app .container .top .row-2 .address .name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.app .container .top .row-2 .address .name img {
+    width: 54px;
+    height: 54px;
+}
+.app .container .top .row-2 .address .name p {
+    width: 96px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.app .container .top .row-2 .address p {
+    width: 41px;
+    height: 24px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: -5px;
+}
+.app .container .top .row-2 .address input {
+    width: 72px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1.5px solid #00000066;
+    padding-left: 12px;
+    margin-left: 85px;
+
+}
+.app .container .top .row-2 .address input::placeholder {
+    color: #000000;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 400;
+    line-height: 24px;
+}
+.app .container .top .row-2 .address .total {
+    width: 41px;
+    height: 24px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 80px;
+}
+.app .container .top .row-3 {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.app .container .top .row-3 button {
+    width: 218px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #00000080;
+    padding: 16px 48px;
+    background-color: white;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.app .container .button {
+    width: 100%;
+    display: flex;
+    gap: 173px;
+    flex-direction: row;
+}
+.app .container .button .left {
+    width: 50%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.app .container .button .left input {
+    width: 300px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    padding-left: 24px;
+    opacity: 50%;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.app .container .button .left button {
+    width: 211px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 48px;
+    background-color: #DB4444;
+    border: 0;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16x;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+.app .container .button .right {
+    width: 50%;
+    height: 324px;
+    border-radius: 4px;
+    border: 1.5px solid #000000;
+    padding-left: 24px;
+    padding-top: 32px;
+}
+.app .container .button .right .address p {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.app .container .button .right .total {
+    width: 422px;
+}
+.app .container .button .right .total .row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 314px;
+}
+.app .container .button .right .total .row-1 p,
+.app .container .button .right .total .row-1 span {
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.app .container .button .right button {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 260px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #DB4444;
+    border: 0px;
+    color: #FAFAFA;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}

@@ -1,0 +1,14 @@
+.app .container .right .create .titels .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 87px;
+}
+.app .container .right .create .titels .buttons .button-1 {
+    width: 143px;
+    padding: 16px 48px;
+}
+.app .container .right .create .titels .buttons a {
+    color: #db4444;
+    text-decoration: none;
+}
